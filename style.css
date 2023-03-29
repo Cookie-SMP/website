@@ -1,0 +1,60 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: gold;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: black;
+}
+
+section {
+    margin: 50px 0;
+    padding: 50px;
+}
+
+section h1 {
+    color: gold;
+    text-align: center;
+}
+
+section h2 {
+    color: gold;
+}
+
+section p {
+    margin-bottom: 20px;
+}
+
+section img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+section hr {
+    border: none;
+    border-top: 1px solid gold;
+    margin: 50px 0;
+}
