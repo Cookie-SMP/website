@@ -3,123 +3,112 @@
 <head>
     <title>Minecraft Server Showcase</title>
     <style>
-body {
-    background-color: black;
-    color: white;
-    font-family: 'Open Sans', sans-serif;
-    margin: 0;
-    padding: 0;
-}
+        body {
+            background-color: #1a1a1a;
+            color: #d9d9d9;
+            font-family: 'Open Sans', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
 
-header {
-    background-color: #333;
-    padding: 10px;
-    position: relative;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-}
+        header {
+            background-color: #333333;
+            padding: 10px;
+            position: relative;
+            border-bottom-left-radius: 10px;
+            border-bottom-right-radius: 10px;
+        }
 
-nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
 
-nav ul li {
-    margin-right: 20px;
-    position: relative;
-}
+        nav ul li {
+            margin-right: 20px;
+            position: relative;
+        }
 
-nav ul li a {
-    color: white;
-    text-decoration: none;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: bold;
-    padding: 10px 20px;
-    display: block;
-    position: relative;
-}
+        nav ul li a {
+            color: #d9d9d9;
+            text-decoration: none;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: bold;
+            padding: 10px 20px;
+            display: block;
+            position: relative;
+        }
 
-nav ul li a::before {
-    content: "";
-    position: absolute;
-    top: 35px;
-    left: 0;
-    width: 100%;
-    height: 5px;
-    background-color: gray;
-    border-radius: 5px;
-    transform: scaleX(0);
-    transform-origin: right;
-    transition: transform 0.3s ease-out, background-color 0.3s ease-out, top 0.3s ease-out;
-}
+        nav ul li a::before {
+            content: "";
+            position: absolute;
+            top: 35px;
+            left: 0;
+            width: 100%;
+            height: 5px;
+            background-color: #666666;
+            border-radius: 5px;
+            transform: scaleX(0);
+            transform-origin: right;
+            transition: transform 0.3s ease-out, background-color 0.3s ease-out, top 0.3s ease-out;
+        }
 
-nav ul li a:hover::before {
-    background-color: white;
-    transform: scaleX(1);
-    transform-origin: left;
-    top: 30px;
-}
+        nav ul li a:hover::before {
+            background-color: #d9d9d9;
+            transform: scaleX(1);
+            transform-origin: left;
+            top: 30px;
+        }
 
-nav ul li a:focus::before,
-nav ul li a:active::before {
-    background-color: white;
-    transform: scaleX(1);
-    transform-origin: left;
-    top: 30px;
-}
+        nav ul li a:focus::before,
+        nav ul li a:active::before {
+            background-color: #d9d9d9;
+            transform: scaleX(1);
+            transform-origin: left;
+            top: 30px;
+        }
 
-section {
-    margin: 50px 0;
-    padding: 50px;
-    background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -color: transparent;
-}
+        section {
+            margin: 50px 0;
+            padding: 50px;
+            background-color: #333333;
+            color: #d9d9d9;
+        }
 
-section h1 {
-    text-align: center;
-    font-family: 'Oswald', sans-serif;
-    font-size: 4rem;
-    background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -color: transparent;
-}
+        section h1 {
+            text-align: center;
+            font-family: 'Oswald', sans-serif;
+            font-size: 4rem;
+            color: #d9d9d9;
+        }
 
-section h2 {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 2rem;
-    background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -color: transparent;
-}
+        section h2 {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 2rem;
+            color: #d9d9d9;
+        }
 
-section p {
-    margin-bottom: 20px;
-    font-family: 'Open Sans', sans-serif;
-    background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -color: transparent;
-}
+        section p {
+            margin-bottom: 20px;
+            font-family: 'Open Sans', sans-serif;
+            color: #d9d9d9;
+        }
 
-section img {
-    display: block;
-    margin: 0 auto;
-    max-width: 100%;
-}
+        section img {
+            display: block;
+            margin: 0 auto;
+            max-width: 100%;
+        }
 
-section hr {
-    border: none;
-    border-top: 1px solid gold;
-    margin: 50px 0;
-}
+        section hr {
+            border: none;
+            border-top: 1px solid #666666;
+            margin: 50px 0;
+        }
     </style>
 </head>
 <body>
@@ -132,6 +121,7 @@ section hr {
             </ul>
         </nav>
     </header>
+
     <section id="home">
         <h1>Welcome to our Minecraft Server!</h1>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Suspendisse potenti. Sed placerat, sapien a posuere euismod, augue purus faucibus erat, vel semper mi dolor sed tortor. Donec at tellus magna. Sed euismod, nibh ut ullamcorper rutrum, massa ipsum tristique metus, vel lacinia urna justo eu mauris.</p>
@@ -139,6 +129,7 @@ section hr {
         <p>Donec at tellus magna. Sed euismod, nibh ut ullamcorper rutrum, massa ipsum tristique metus, vel lacinia urna justo eu mauris.</p>
         <img src="img/home2.jpg" alt="Home Image 2">
     </section>
+
     <section id="about" style="display:none;">
         <h1>About Our Server</h1>
         <hr>
@@ -150,6 +141,7 @@ section hr {
         <p>Donec at tellus magna. Sed euismod, nibh ut ullamcorper rutrum, massa ipsum tristique metus, vel lacinia urna justo eu mauris.</p>
         <img src="img/about2.jpg" alt="About Image 2">
     </section>
+
     <section id="players" style="display:none;">
         <h1>Our Players</h1>
         <ul>
@@ -171,25 +163,27 @@ section hr {
             </li>
         </ul>
     </section>
+
     <script type="text/javascript">
-function showPage(pageId) {
-    var sections = document.getElementsByTagName("section");
-    for (var i = 0; i < sections.length; i++) {
-        if (sections[i].id == pageId) {
-            sections[i].style.display = "block";
-        } else {
-            sections[i].style.display = "none";
+        function showPage(pageId) {
+            var sections = document.getElementsByTagName("section");
+            for (var i = 0; i < sections.length; i++) {
+                if (sections[i].id == pageId) {
+                    sections[i].style.display = "block";
+                } else {
+                    sections[i].style.display = "none";
+                }
+            }
+
+            var navLinks = document.getElementsByTagName("a");
+            for (var i = 0; i < navLinks.length; i++) {
+                if (navLinks[i].getAttribute("onclick").indexOf(pageId) != -1) {
+                    navLinks[i].classList.add("active");
+                } else {
+                    navLinks[i].classList.remove("active");
+                }
+            }
         }
-    }
-    var navLinks = document.getElementsByTagName("a");
-    for (var i = 0; i < navLinks.length; i++) {
-        if (navLinks[i].getAttribute("onclick").indexOf(pageId) != -1) {
-            navLinks[i].classList.add("active");
-        } else {
-            navLinks[i].classList.remove("active");
-        }
-    }
-}
     </script>
 </body>
 </html>
